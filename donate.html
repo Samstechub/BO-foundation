@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- =====================================================
+         BASIC PAGE INFORMATION
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>
+        Donate | B.O Foundation
+    </title>
+
+    <meta
+        name="description"
+        content="Support B.O Foundation and help create opportunities for girls and young people through sport, education, mentorship and community development."
+    >
+
+
+    <!-- =====================================================
+         TAILWIND CSS
+    ====================================================== -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+
+        tailwind.config = {
+
+            theme: {
+
+                extend: {
+
+                    colors: {
+                        forest: "#12372A",
+                        deep: "#08251B",
+                        gold: "#D8A83E",
+                        cream: "#F7F4EC",
+                        sage: "#DCE8E0"
+                    },
+
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"]
+                    }
+
+                }
+
+            }
+
+        };
+
+    </script>
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         CUSTOM CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="assets/site.css"
+    >
+
+</head>
+
+
+<body class="bg-cream text-slate-900 font-sans">
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        id="site-header"
+        class="site-header fixed inset-x-0 top-0 z-50 transition-all duration-300"
+    >
+
+        <nav
+            class="max-w-7xl mx-auto h-20 px-5 lg:px-8 flex items-center justify-between"
+        >
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="flex items-center gap-3"
+            >
+
+                <span
+                    class="w-11 h-11 rounded-full bg-gold text-deep grid place-items-center font-extrabold"
+                >
+                    B.O
+                </span>
+
+
+                <span>
+
+                    <b class="block">
+                        B.O FOUNDATION
+                    </b>
+
+                    <small class="block opacity-80">
+                        Hope. Opportunity. A Better Future.
+                    </small>
+
+                </span>
+
+            </a>
+
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button
+                id="menu-btn"
+                class="lg:hidden w-11 h-11 rounded-full bg-white/90 text-forest"
+                aria-expanded="false"
+                aria-label="Open navigation menu"
+            >
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <!-- DESKTOP NAVIGATION -->
+
+            <div
+                class="hidden lg:flex items-center gap-8 text-sm font-semibold"
+            >
+
+                <a
+                    class="nav-link"
+                    href="index.html"
+                >
+                    Home
+                </a>
+
+                <a
+                    class="nav-link"
+                    href="index.html#benna"
+                >
+                    Benna's Story
+                </a>
+
+                <a
+                    class="nav-link"
+                    href="index.html#work"
+                >
+                    Our Work
+                </a>
+
+                <a
+                    class="nav-link"
+                    href="contact.html"
+                >
+                    Contact
+                </a>
+
+                <a
+                    href="donate.html"
+                    class="bg-gold text-deep px-5 py-3 rounded-full"
+                >
+                    Donate
+                </a>
+
+            </div>
+
+        </nav>
+
+
+        <!-- =================================================
+             MOBILE NAVIGATION
+        ================================================== -->
+
+        <div
+            id="mobile-nav"
+            class="mobile-nav hidden lg:hidden mx-4 rounded-2xl p-4"
+        >
+
+            <a
+                class="mobile-link"
+                href="index.html"
+            >
+                Home
+            </a>
+
+            <a
+                class="mobile-link"
+                href="index.html#benna"
+            >
+                Benna's Story
+            </a>
+
+            <a
+                class="mobile-link"
+                href="index.html#work"
+            >
+                Our Work
+            </a>
+
+            <a
+                class="mobile-link"
+                href="contact.html"
+            >
+                Contact
+            </a>
+
+            <a
+                class="block bg-gold text-deep px-4 py-3 rounded-xl text-center font-bold mt-2"
+                href="donate.html"
+            >
+                Donate
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section
+            class="bg-deep text-white pt-36 pb-20 lg:pt-44 lg:pb-24"
+        >
+
+            <div
+                class="max-w-5xl mx-auto px-5 lg:px-8 text-center"
+            >
+
+                <p
+                    class="uppercase tracking-[.25em] text-gold font-bold text-sm mb-5"
+                >
+                    Support B.O Foundation
+                </p>
+
+
+                <h1
+                    class="font-display text-5xl sm:text-6xl lg:text-7xl leading-tight"
+                >
+
+                    Support the
+
+                    <span class="text-gold">
+                        Legacy.
+                    </span>
+
+                </h1>
+
+
+                <p
+                    class="max-w-2xl mx-auto mt-6 text-lg sm:text-xl text-white/75 leading-8"
+                >
+                    Help us continue creating opportunities for girls
+                    and young people through sport, education and
+                    community development.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             DONATION SECTION
+        ================================================== -->
+
+        <section class="py-20 lg:py-28">
+
+            <div
+                class="max-w-5xl mx-auto px-5 lg:px-8"
+            >
+
+
+                <!-- INTRODUCTION -->
+
+                <div
+                    class="text-center max-w-2xl mx-auto"
+                >
+
+                    <p class="section-kicker justify-center">
+                        Make a contribution
+                    </p>
+
+
+                    <h2 class="section-title">
+                        Your support can make a difference.
+                    </h2>
+
+
+                    <p
+                        class="mt-5 text-lg text-slate-600 leading-8"
+                    >
+                        Thank you for choosing to support the work
+                        of B.O Foundation. You can make a contribution
+                        using any of the options below.
+                    </p>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PAYMENT METHODS
+                ================================================== -->
+
+                <div
+                    class="grid md:grid-cols-2 gap-6 mt-12"
+                >
+
+
+                    <!-- =================================================
+                         M-PESA
+                    ================================================== -->
+
+                    <article
+                        class="bg-white rounded-[2rem] p-8 sm:p-10 border border-slate-100 shadow-sm"
+                    >
+
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-sage text-forest grid place-items-center text-xl"
+                        >
+
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+
+                        </div>
+
+
+                        <h3
+                            class="font-display text-3xl text-forest mt-6"
+                        >
+                            M-Pesa
+                        </h3>
+
+
+                        <p
+                            class="text-slate-600 leading-7 mt-3"
+                        >
+                            Make your contribution through M-Pesa
+                            using the official Foundation details below.
+                        </p>
+
+
+                        <!-- PAYMENT DETAILS -->
+
+                        <div
+                            class="mt-6 bg-cream rounded-2xl p-6"
+                        >
+
+                            <div class="py-2">
+
+                                <span
+                                    class="block text-sm text-slate-500"
+                                >
+                                    Paybill / Till Number
+                                </span>
+
+                                <strong
+                                    class="block text-xl text-forest mt-1"
+                                >
+                                    XXXXX
+                                </strong>
+
+                            </div>
+
+
+                            <div
+                                class="py-3 border-t border-slate-200 mt-3"
+                            >
+
+                                <span
+                                    class="block text-sm text-slate-500"
+                                >
+                                    Account / Reference
+                                </span>
+
+                                <strong
+                                    class="block text-xl text-forest mt-1"
+                                >
+                                    B.O Foundation
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         BANK TRANSFER
+                    ================================================== -->
+
+                    <article
+                        class="bg-white rounded-[2rem] p-8 sm:p-10 border border-slate-100 shadow-sm"
+                    >
+
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-sage text-forest grid place-items-center text-xl"
+                        >
+
+                            <i class="fa-solid fa-building-columns"></i>
+
+                        </div>
+
+
+                        <h3
+                            class="font-display text-3xl text-forest mt-6"
+                        >
+                            Bank Transfer
+                        </h3>
+
+
+                        <p
+                            class="text-slate-600 leading-7 mt-3"
+                        >
+                            You can also support B.O Foundation
+                            through a direct bank transfer.
+                        </p>
+
+
+                        <!-- BANK DETAILS -->
+
+                        <div
+                            class="mt-6 bg-cream rounded-2xl p-6 space-y-4"
+                        >
+
+                            <div>
+
+                                <span
+                                    class="block text-sm text-slate-500"
+                                >
+                                    Bank
+                                </span>
+
+                                <strong class="text-forest">
+                                    Bank Name
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span
+                                    class="block text-sm text-slate-500"
+                                >
+                                    Account Name
+                                </span>
+
+                                <strong class="text-forest">
+                                    B.O Foundation
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span
+                                    class="block text-sm text-slate-500"
+                                >
+                                    Account Number
+                                </span>
+
+                                <strong class="text-forest">
+                                    XXXXXXXX
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span
+                                    class="block text-sm text-slate-500"
+                                >
+                                    Branch
+                                </span>
+
+                                <strong class="text-forest">
+                                    XXXXXXXX
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SHORT MESSAGE
+        ================================================== -->
+
+        <section
+            class="py-20 lg:py-24 bg-sage/50"
+        >
+
+            <div
+                class="max-w-3xl mx-auto px-5 text-center"
+            >
+
+                <div
+                    class="w-16 h-16 mx-auto rounded-full bg-gold text-deep grid place-items-center text-xl"
+                >
+
+                    <i class="fa-solid fa-heart"></i>
+
+                </div>
+
+
+                <h2
+                    class="font-display text-4xl sm:text-5xl text-forest mt-6"
+                >
+                    Every contribution matters.
+                </h2>
+
+
+                <p
+                    class="mt-5 text-lg text-slate-600 leading-8"
+                >
+                    Your support helps B.O Foundation continue its
+                    work and create opportunities for girls and young
+                    people to grow, learn and pursue their potential.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             OTHER WAYS TO SUPPORT
+        ================================================== -->
+
+        <section class="py-20 lg:py-24">
+
+            <div
+                class="max-w-4xl mx-auto px-5 text-center"
+            >
+
+                <p class="section-kicker justify-center">
+                    More ways to help
+                </p>
+
+
+                <h2 class="section-title">
+                    Can't make a donation?
+                </h2>
+
+
+                <p
+                    class="mt-5 text-lg text-slate-600 leading-8 max-w-2xl mx-auto"
+                >
+                    You can still support B.O Foundation by partnering
+                    with us, volunteering your time, sharing opportunities
+                    or helping spread the word about our work.
+                </p>
+
+
+                <div
+                    class="flex flex-wrap justify-center gap-4 mt-8"
+                >
+
+                    <a
+                        href="contact.html"
+                        class="bg-forest text-white px-7 py-4 rounded-full font-bold"
+                    >
+                        Get in Touch
+                    </a>
+
+
+                    <a
+                        href="index.html"
+                        class="border-2 border-forest text-forest px-7 py-4 rounded-full font-bold"
+                    >
+                        Return Home
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="bg-deep text-white">
+
+        <div
+            class="max-w-7xl mx-auto px-5 lg:px-8 py-14 grid md:grid-cols-3 gap-10"
+        >
+
+
+            <!-- FOUNDATION -->
+
+            <div>
+
+                <div class="flex items-center gap-3">
+
+                    <span
+                        class="w-11 h-11 rounded-full bg-gold text-deep grid place-items-center font-extrabold"
+                    >
+                        B.O
+                    </span>
+
+
+                    <div>
+
+                        <p class="font-extrabold">
+                            B.O FOUNDATION
+                        </p>
+
+                        <p class="text-xs text-white/60">
+                            Hope. Opportunity. A Better Future.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <p
+                    class="text-white/60 mt-5 max-w-sm leading-7"
+                >
+                    Carrying forward Bernadette “Benna” Olesia's
+                    legacy by empowering young people through sport,
+                    education, mentorship and community development.
+                </p>
+
+            </div>
+
+
+
+            <!-- EXPLORE -->
+
+            <div>
+
+                <h3 class="font-bold">
+                    Explore
+                </h3>
+
+
+                <div
+                    class="mt-4 space-y-3 text-white/60"
+                >
+
+                    <a
+                        href="index.html#benna"
+                        class="block hover:text-gold"
+                    >
+                        Benna's Story
+                    </a>
+
+
+                    <a
+                        href="index.html#work"
+                        class="block hover:text-gold"
+                    >
+                        Our Work
+                    </a>
+
+
+                    <a
+                        href="contact.html"
+                        class="block hover:text-gold"
+                    >
+                        Contact
+                    </a>
+
+
+                    <a
+                        href="donate.html"
+                        class="block hover:text-gold"
+                    >
+                        Donate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CONNECT -->
+
+            <div>
+
+                <h3 class="font-bold">
+                    Connect
+                </h3>
+
+
+                <p class="text-white/60 mt-4">
+                    Have an idea, partnership or opportunity to share?
+                </p>
+
+
+                <a
+                    href="contact.html"
+                    class="inline-flex mt-4 text-gold font-bold"
+                >
+
+                    Contact B.O Foundation
+
+                    <i
+                        class="fa-solid fa-arrow-right ml-2 mt-1"
+                    ></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="border-t border-white/10">
+
+            <div
+                class="max-w-7xl mx-auto px-5 lg:px-8 py-5 text-sm text-white/40"
+            >
+
+                ©
+                <span class="current-year"></span>
+                B.O Foundation. All rights reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
